@@ -2,6 +2,11 @@
 
 @custom-variant dark (&:is(.dark, .dark *));
 
+@theme {
+	--color-primary: #5B9FEF;
+	--color-primary-dark: #4A8FDF;
+}
+
 html {
 	font-family: 'M PLUS Rounded 1c', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif;
 }
