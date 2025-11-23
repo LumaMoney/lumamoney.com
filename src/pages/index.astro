@@ -3,16 +3,16 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Home">
-	<div class="container">
-		<section class="hero">
-			<img src="/LumaMoney.svg" alt="Luma Money" class="hero-logo" />
-			<h1>Luma Money</h1>
-			<p class="tagline">Your Personal Finance Companion</p>
-			<p class="description">
+	<div class="max-w-7xl mx-auto px-8 max-sm:px-6">
+		<section class="text-center py-20 pb-16 max-w-4xl mx-auto max-md:py-12 max-md:pb-8">
+			<img src="/LumaMoney.svg" alt="Luma Money" class="w-40 h-40 mx-auto mb-8 block max-md:w-[120px] max-md:h-[120px]" />
+			<h1 class="text-6xl font-bold mb-4 text-[#5B9FEF] tracking-tight leading-[1.1] max-md:text-[2.5rem] max-[480px]:text-[2rem]">Luma Money</h1>
+			<p class="text-2xl text-zinc-600 dark:text-zinc-400 mb-6 font-normal leading-relaxed max-md:text-lg">Your Personal Finance Companion</p>
+			<p class="text-lg text-zinc-600 dark:text-zinc-400 mb-10 font-normal leading-relaxed max-w-xl mx-auto">
 				Track expenses, manage accounts, and gain insights into your spending habits. 
 				All your data stays private on your device.
 			</p>
-			<div class="badge">Coming Soon to App Store</div>
+			<div class="inline-block bg-[#5B9FEF] text-white px-8 py-3.5 rounded-full font-semibold text-base shadow-[0_4px_20px_rgba(91,159,239,0.3)] transition-all hover:-translate-y-0.5 hover:shadow-[0_6px_25px_rgba(91,159,239,0.4)] max-md:text-[15px] max-md:px-7 max-md:py-3">Coming Soon to App Store</div>
 		</section>
 	</div>
 </Layout>

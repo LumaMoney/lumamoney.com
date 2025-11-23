@@ -3,53 +3,53 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Privacy Policy">
-	<div class="container">
-		<section class="content-section">
-			<h1>Privacy Policy</h1>
-			<p class="last-updated">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+	<div class="max-w-7xl mx-auto px-8">
+		<section class="max-w-[850px] mx-auto py-12 px-8 max-md:py-8 max-md:px-6">
+			<h1 class="text-5xl font-bold mb-2 tracking-tight max-md:text-4xl">Privacy Policy</h1>
+			<p class="text-zinc-600 dark:text-zinc-400 mb-12">Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
 			
-			<div class="privacy-content">
-				<h2>Your Privacy Matters</h2>
-				<p>At Luma Money, we take your privacy seriously. This policy outlines our approach to data handling and your privacy rights.</p>
+			<div class="mt-8">
+				<h2 class="text-3xl font-bold mt-12 mb-4">Your Privacy Matters</h2>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">At Luma Money, we take your privacy seriously. This policy outlines our approach to data handling and your privacy rights.</p>
 
-				<h3>Data Collection</h3>
-				<p><strong>We don't collect any personal data.</strong> Luma Money is designed with privacy as a core principle. All your financial information stays on your device.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">Data Collection</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]"><strong class="text-zinc-900 dark:text-white font-semibold">We don't collect any personal data.</strong> Luma Money is designed with privacy as a core principle. All your financial information stays on your device.</p>
 
-				<h3>Local Storage</h3>
-				<p>All data you enter into Luma Money is stored locally on your iOS device. This includes:</p>
-				<ul>
-					<li>Transaction records</li>
-					<li>Account information</li>
-					<li>Categories and budgets</li>
-					<li>Any other financial data you input</li>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">Local Storage</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">All data you enter into Luma Money is stored locally on your iOS device. This includes:</p>
+				<ul class="my-4 mb-6 ml-6 list-disc">
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Transaction records</li>
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Account information</li>
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Categories and budgets</li>
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Any other financial data you input</li>
 				</ul>
 
-				<h3>iCloud Backup</h3>
-				<p>Pro users can optionally enable iCloud backup to keep their data synced across Apple devices. When enabled, your data is stored in your personal iCloud storage space. We have no access to your iCloud data, and Apple's privacy policy applies.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">iCloud Backup</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">Pro users can optionally enable iCloud backup to keep their data synced across Apple devices. When enabled, your data is stored in your personal iCloud storage space. We have no access to your iCloud data, and Apple's privacy policy applies.</p>
 
-				<h3>No Analytics or Tracking</h3>
-				<p>We do not use any analytics, tracking, or advertising services. We don't know who you are, what you do in the app, or any of your financial information.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">No Analytics or Tracking</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">We do not use any analytics, tracking, or advertising services. We don't know who you are, what you do in the app, or any of your financial information.</p>
 
-				<h3>No Third-Party Sharing</h3>
-				<p>Since we don't collect your data, we have nothing to share with third parties. Your information is yours alone.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">No Third-Party Sharing</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">Since we don't collect your data, we have nothing to share with third parties. Your information is yours alone.</p>
 
-				<h3>Data Security</h3>
-				<p>While we don't have access to your data, we recommend:</p>
-				<ul>
-					<li>Using a strong device passcode</li>
-					<li>Enabling Face ID or Touch ID</li>
-					<li>Keeping your iOS device updated</li>
-					<li>Using a secure iCloud password if you enable backup</li>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">Data Security</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">While we don't have access to your data, we recommend:</p>
+				<ul class="my-4 mb-6 ml-6 list-disc">
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Using a strong device passcode</li>
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Enabling Face ID or Touch ID</li>
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Keeping your iOS device updated</li>
+					<li class="leading-relaxed text-zinc-600 dark:text-zinc-400 mb-2 text-[17px]">Using a secure iCloud password if you enable backup</li>
 				</ul>
 
-				<h3>Children's Privacy</h3>
-				<p>Luma Money does not knowingly collect information from children under 13.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">Children's Privacy</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">Luma Money does not knowingly collect information from children under 13.</p>
 
-				<h3>Changes to This Policy</h3>
-				<p>We may update this privacy policy from time to time. Please check this page periodically for any changes.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">Changes to This Policy</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">We may update this privacy policy from time to time. Please check this page periodically for any changes.</p>
 
-				<h3>Contact Us</h3>
-				<p>If you have any questions about this privacy policy, please contact us at <a href="mailto:lumamoney@icloud.com" class="inline-link">lumamoney@icloud.com</a>.</p>
+				<h3 class="text-2xl font-semibold mt-8 mb-3">Contact Us</h3>
+				<p class="leading-relaxed mb-5 text-zinc-600 dark:text-zinc-400 text-[17px]">If you have any questions about this privacy policy, please contact us at <a href="mailto:lumamoney@icloud.com" class="text-[#5B9FEF] no-underline font-medium transition-colors hover:text-[#4A8FDF] hover:underline">lumamoney@icloud.com</a>.</p>
 			</div>
 		</section>
 	</div>
