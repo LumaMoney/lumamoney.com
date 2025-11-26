@@ -14,13 +14,35 @@ const currentPath = Astro.url.pathname;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+		<meta name="apple-itunes-app" content="app-id=6755104035" />
+		
+		<!-- SEO Meta Tags -->
+		<meta name="description" content="Track expenses, manage accounts, and gain insights into your spending habits. All your data stays private on your device." />
+		<meta name="keywords" content="personal finance, expense tracker, budget app, money management, financial tracking, iOS app" />
+		<meta name="author" content="Luma Money" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://lumamoney.com/" />
+		<meta property="og:title" content={title.includes('Luma Money') ? title : `${title} - Luma Money`} />
+		<meta property="og:description" content="Track expenses, manage accounts, and gain insights into your spending habits. All your data stays private on your device." />
+		<meta property="og:image" content="https://lumamoney.com/logo.png" />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://lumamoney.com/" />
+		<meta property="twitter:title" content={title.includes('Luma Money') ? title : `${title} - Luma Money`} />
+		<meta property="twitter:description" content="Track expenses, manage accounts, and gain insights into your spending habits. All your data stays private on your device." />
+		<meta property="twitter:image" content="https://lumamoney.com/logo.png" />
+		
 		<link rel="icon" type="image/png" href="/logo.png" />
 		<link rel="apple-touch-icon" href="/logo.png" />
+		<link rel="canonical" href={`https://lumamoney.com${Astro.url.pathname}`} />
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
 		<meta name="generator" content={Astro.generator} />
-		<title>{title} - Luma Money</title>
+		<title>{title.includes('Luma Money') ? title : `${title} - Luma Money`}</title>
 		<script is:inline>
 			// Set theme immediately to prevent flash
 			const getTheme = () => {
